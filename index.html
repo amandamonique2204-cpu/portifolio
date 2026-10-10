@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <!-- Essa linha faz o site se ajustar no celular. Não apague! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda Monique | Portfólio</title>
+
+  <!-- Aparece no Google e quando o link é enviado no WhatsApp ou LinkedIn -->
+  <meta name="description" content="Portfólio de Amanda Monique, estudante de T.I. com foco em design e front-end, em busca da primeira oportunidade como jovem aprendiz.">
+  <meta property="og:title" content="Amanda Monique | Portfólio">
+  <meta property="og:description" content="Estudante de T.I. com foco em design e front-end.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonte Inter, a mesma do Figma -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- barra -->
+  <header class="topo">
+    <button class="botao-mood" id="botao-mood" type="button">
+      <span class="icone-mood"></span>change the mood
+    </button>
+  </header>
+
+  <main>
+
+    <!--parte de inicio -->
+    <section class="inicio">
+      <div class="container">
+
+        <h1 class="nome">AMANDA MONIQUE</h1>
+
+        <p class="profissao">
+          Estudante de T.I., Design e Front-End.<br>
+          Em busca da minha primeira oportunidade como jovem aprendiz.
+        </p>
+
+        <nav class="menu">
+          <a href="#contato">CONTACTS</a>
+          <a href="#projetos">PROJECTS</a>
+        </nav>
+
+      </div>
+    </section>
+
+
+    <!-- about -->
+    <section class="sobre" id="sobre">
+      <div class="sobre-caixa">
+
+        <h2 class="sobre-titulo">ABOUT ME</h2>
+
+        <div class="sobre-grade">
+
+          <img class="foto" src="perfil.png" alt="Foto de Amanda Monique">
+
+          <div class="texto-1">
+            <p>
+              Cursando o 2º ano do Ensino Médio Técnico em T.I. no Cotemig, venho construindo uma base em desenvolvimento de software. Meus estudos abrangem a criação de sites com HTML, CSS e JavaScript, programação em C#, estruturação de bancos de dados em MySQL e conceitos de empreendedorismo.
+            </p>
+          </div>
+
+          <p class="texto-2">
+            No visual das aplicações, já tenho contato com o Figma e o Canva e estou sempre aberta a aprender novas ferramentas de design. Busco uma primeira experiência no mercado de trabalho para desenvolver minhas habilidades, aprender com profissionais experientes e colaborar no dia a dia.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- skills -->
+    <section class="habilidades" id="skills">
+
+      <h2 class="habilidades-titulo">.SKILLS</h2>
+
+      <div class="skills-lista">
+
+        <!-- pra inverter o sentido de uma fileira, troque anda-esquerda por anda-direita -->
+
+        <!-- fileira design -->
+        <div class="skill-linha">
+          <div class="skill-texto">
+            <h3>Design</h3>
+            <p>Figma e Canva, para criar protótipos e peças visuais.</p>
+          </div>
+          <div class="faixa">
+            <div class="esfumado esq"></div>
+            <div class="esfumado dir"></div>
+            <div class="trilho anda-esquerda">
+              <ul class="grupo">
+                <li><img src="fi.png" alt="Figma"></li>
+                <li><img src="canva.png" alt="Canva"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- fileira front-end -->
+        <div class="skill-linha">
+          <div class="skill-texto">
+            <h3>Front-end</h3>
+            <p>HTML, CSS e JavaScript, para transformar o design em páginas que funcionam no celular e no computador.</p>
+          </div>
+          <div class="faixa">
+            <div class="esfumado esq"></div>
+            <div class="esfumado dir"></div>
+            <div class="trilho anda-direita">
+              <ul class="grupo">
+                <li><img src="c.png" alt=""> <span>css</span></li>
+                <li><img src="ht.png" alt=""> <span>html</span></li>
+                <li><img src="ja.png" alt=""> <span>java script</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- fileira back-end -->
+        <div class="skill-linha">
+          <div class="skill-texto">
+            <h3>Back-end</h3>
+            <p>Estou aprendendo C# e MySQL no curso técnico.</p>
+          </div>
+          <div class="faixa">
+            <div class="esfumado esq"></div>
+            <div class="esfumado dir"></div>
+            <div class="trilho anda-esquerda">
+              <ul class="grupo">
+                <li><img src="Csharp_Logo 1.png" alt=""> <span>c#</span></li>
+                <li><img src="mys.png" alt="MySQL"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- idiomas fica parado, sem fileira -->
+        <div class="skill-linha">
+          <div class="skill-texto">
+            <h3>Idiomas</h3>
+            <p>Inglês intermediário (B1).</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- projects -->
+    <section class="projetos" id="projetos">
+
+      <div class="projetos-topo">
+        <p class="etiqueta">design</p>
+        <h2>.PROJECTS</h2>
+        <p class="etiqueta">
+          sites; landing page
+           <a class="seta" href="#" aria-label="Ver mais projetos">↗</a>
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <!-- coluna 1 -->
+        <div class="coluna">
+          <figure class="projeto">
+            <a href="https://amandamonique2204-cpu.github.io/ladingpage/" target="_blank">
+              <img src="pro1.png" alt="Landing page do projeto Sépala">
+            </a>
+            <figcaption><strong>SÉPALA</strong> landing page</figcaption>
+          </figure>
+
+          <figure class="projeto verde-baixo">
+            <a href="#" target="_blank">
+              <div class="caixa-verde formato-b"></div>
+            </a>
+            <figcaption><strong>XXXX</strong> xxxxxxxxxxx</figcaption>
+          </figure>
+        </div>
+
+        <!-- coluna 2 -->
+        <div class="coluna">
+          <figure class="projeto">
+            <a href="https://amandamonique2204-cpu.github.io/sitefigma/" target="_blank">
+              <img src="pro2.png" alt="Site do projeto Sépala">
+            </a>
+            <figcaption><strong>SÉPALA</strong> site</figcaption>
+          </figure>
+
+          
+
+       
+
+      </div>
+    </section>
+
+
+    <!-- contact -->
+    <section class="contato" id="contato">
+
+      <h2 class="contato-titulo">.CONTACT</h2>
+
+      <div class="contato-grade">
+
+        <div class="contato-texto">
+          <p class="contato-chamada">Vamos conversar?</p>
+          <p>
+            Estou em busca da minha primeira oportunidade como jovem aprendiz
+            e também aberta a pequenos projetos de design.
+          </p>
+          <a class="email" href="mailto:amandamonique2204@gmail.com">amandamonique2204@gmail.com</a>
+          <a class="email" href="mailto:12500160@aluno.cotemig.com.br">12500160@aluno.cotemig.com.br</a>
+
+        
+        </div>
+
+        <div class="redes">
+        
+          <a href="#">linkedin</a>
+          <a href="https://www.instagram.com/amanda_moniqc/?utm_source=ig_web_button_share_sheet">instagram</a>
+          <a href="https://github.com/amandamonique2204-cpu?tab=overview&from=2026-10-01&to=2026-10-09/">github</a>
+
+         
+          <a href="tel:+5531992133420">(31) 99 213-3420</a>
+        
+          
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- rodape-->
+  <footer class="rodape">
+
+    <div class="rodape-grade">
+
+      <div class="rodape-nome">
+        <p class="rodape-titulo">Amanda Monique</p>
+        <p>Estudante de T.I. com foco em design e front-end.</p>
+      </div>
+
+      <nav class="rodape-menu" aria-label="Menu do rodapé">
+        <a href="#sobre">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projects</a>
+        <a href="#contato">Contact</a>
+      </nav>
+
+      <a class="rodape-topo" href="#">Voltar ao topo ↑</a>
+
+    </div>
+
+    <div class="rodape-base">
+      <p>2026 | Amanda Monique</p>
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> <!-- biblioteca de rolagem suave -->
+  <script src="script.js"></script>
+</body>
+</html>
